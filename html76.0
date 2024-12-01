@@ -1,0 +1,68 @@
+}<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal for yaggi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fbe7e4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #ff6b6b;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .yes {
+            background-color: #4caf50;
+            color: white;
+        }
+        .no {
+            background-color: #f44336;
+            color: white;
+        }
+        .message {
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi Siya ❤️</h1>
+    <p> Hi siya ma
+Chala rojulu nunchi okati chepali anukuntuna.. emi anukoka
+cheapli kabati cheputuna malli nenu regrate feel avutha so cheputuna
+Naku nee character chala Baga nachindhi naku nee midha chala feeling unay  avvi ipudu vachinavi kadhu eppudu nuncho vunay .. SIYA 
+I like ur eyes which are more attractive 👀
+Naku Ela propose cheyalo teliyadhu ..niku okavela idhi nachakapotey  sry 
+ But ippudikey chala time waste chesa..so cheputuna 
+I LOVE YOU YAGNASRI   nijam cheputuna eyy madya asala concentrate cheyalekapotuna emi pani medha</p>
+    <button class="yes" onclick="showMessage('yes')">Yes</button>
+    <button class="no" onclick="showMessage('no')">No</button>
+
+    <div class="message" id="message"></div>
+
+    <script>
+        function showMessage(answer) {
+            const messageDiv = document.getElementById('message');
+            if (answer === 'yes') {
+                messageDiv.innerHTML = "I love you too! ❤️ You just made my program perfect  and i think u make my life perfect too! just say yes in my dm";
+            } else {
+                messageDiv.innerHTML = "I will love you forever, no matter what. 💖 and if (no) is ur options don't msg me for this topic i will leave it just type no in my dm";
+            }
+        }
+    </script>
+</body>
+</html
